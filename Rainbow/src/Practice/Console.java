@@ -9,11 +9,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Console {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
-		System.out.println( "Enter A Value");
+		System.out.println( "Enter Arnold Value");
 int a=s.nextInt();
-System.out.println("Enter B Value");
+System.out.println("Enter Badman Value");
 int b=s.nextInt();
-System.out.println("a*b is"+ "=" + a*b);
+System.out.println("a+b is"+ "=" + a+b);
 
 System.out.println("Enter URL");
 String u=s.next();
